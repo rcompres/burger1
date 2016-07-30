@@ -24,7 +24,7 @@ var orm = {
 			cb(result)
 		})
 	},
-	makeOne: function (table, burger_name, cb){
+	InsertOne: function (table, burger_name, cb){
 
 		var queryString = "INSERT INTO " + table + " (burger_name) VALUES ('" + burger_name + "')";
 
